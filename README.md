@@ -8,8 +8,9 @@ A sample nginx configuration is also included which mounts **file browser** unde
 To build locally:
 
 ```
-docker build nginx-file-index:latest
+docker build -t nginx-file-index:latest .
 ```
+To use built image ensure you substitute `rickrussell/nginx-file-index:latest` for your locally built tag of `nginx-file-index:latest`
 
 
 ## Using with docker
