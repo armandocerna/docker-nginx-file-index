@@ -10,7 +10,7 @@ To build locally:
 ```
 docker build -t nginx-file-index:latest .
 ```
-To use built image ensure you substitute `rickrussell/nginx-file-index:latest` for your locally built tag of `nginx-file-index:latest`
+To use built image ensure you substitute `rickrussell/nginx-file-index:latest` for your locally built tag of `nginx-file-index:latest` in the run command below.
 
 
 ## Using with docker
